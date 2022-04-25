@@ -1,0 +1,19 @@
+.lead__image {
+  margin: 0;
+  padding: 40px 0 8px 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+@media screen and (min-width: 769px) {
+  .lead__image {
+    padding-top: 56px;
+    ;
+  }
+}
+
+@media (min-width: 1280px)  {
+  .lead__image {
+    padding-top: 64px;
+  }
+}

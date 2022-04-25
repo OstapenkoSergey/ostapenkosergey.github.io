@@ -1,0 +1,19 @@
+.footer__nav-el {
+  padding-bottom: 32px;
+  box-sizing: border-box;
+}
+
+.footer__nav-el:last-child {
+  padding-bottom: 48px;
+}
+
+@media screen and (min-width: 769px) {
+  .footer__nav-el {
+    padding: 0;
+    margin: 0 18px 0 0;
+  }
+
+  .footer__nav-el:last-child {
+    padding-bottom: 0px;
+  }
+}

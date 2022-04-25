@@ -1,0 +1,9 @@
+.place__description {
+  margin: 32px 16px 0 16px;
+}
+
+@media screen and (min-width: 769px) {
+  .place__description {
+    margin: 0;
+  }
+}
