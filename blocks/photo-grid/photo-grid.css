@@ -1,7 +1,6 @@
 .photo-grid {
   margin: 0;
   padding: 64px 16px;
-  box-sizing: border-box;
   display: grid;
   grid: 1fr/ auto;
   gap: 12px;

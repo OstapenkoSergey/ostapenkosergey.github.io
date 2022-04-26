@@ -10,15 +10,27 @@
 
 @media screen and (min-width: 769px) {
   .footer {
-    padding: 88px 24px 24px 24px;
+    margin: 0 24px;
+    padding: 88px 0 24px 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: calc(100% - 48px);
+    max-width: 768px;
   }
 }
 
 @media (min-width: 1025px) {
   .footer {
-    padding: 92px 48px 24px 48px;
+    margin: 0 48px;
+    padding: 92px 0 24px 0;
+    max-width: 928px;
+    width: calc(100% - 96px);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer {
+    max-width: 1184px;
   }
 }
